@@ -8,14 +8,17 @@ def baby_name():
 
 
     def boy_name():
-        boys=['Sam', 'Mark', 'William', 'David', 'Stanley', 'Brent', 'Arthur', 'Walter','Clayton', 'Timothy', 'John','James','Ryan','Robert','Zack','Jack','Harry','Don', 'Albert',]
+        boys=['Sam', 'Mark', 'William', 'David', 'Stanley', 'Brent', 'Arthur', 'Walter','Clayton', 'Timothy', 'John','James','Ryan','Robert','Zack','Jack','Harry','Don', 'Albert',
+        'Benjamin','Brayden','Braxton','Blake','Benson','Bennet','Bryce','Bradley','Daniel','Dylan','Dakota','Dexter','Davis','Duke','Frank','Felix','Finley','Francis','Fletcher',
+        'Fisher','kai','king','Kevin','knox','kaleb','Keith','Ken','Samuel','Sawyer','Sean','Steven','Vincent','Victor','Valentino','van',]
         random_index=randrange(0,len(boys))
         print(boys[random_index])
 
 
     def girl_name():
         girls=['Carol','Katrina','Heather','Katherine','Dianne','Wendy','Susan','Penny','Darlene','Sylvia','Sandra','Amelia','Abigail','Audrey','Arianna','Anna','Adeline',
-        'Arianna','Annabel','Angela','Bella','Bree','Betty','Belinda','Beatrice', 'Barbara', 'Bethany','Camilla','Crystal','Celine']
+        'Arianna','Annabel','Angela','Bella','Bree','Betty','Belinda','Beatrice', 'Barbara', 'Bethany','Camilla','Crystal','Celine','Faith','Fiona','Fredrica','Freya','Farida',
+        'Frances','Payton','Paula','Piper','Paige','Ruby','Rebbecca','Riley','Roberta','Nora','Nancy','Natalie','Nova','Nina','Willow','Winter','Wren','Yolanda','Yasmin','Yazmina']
         random_index=randrange(0,len(girls))
         print(girls[random_index])
 
